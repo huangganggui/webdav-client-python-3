@@ -13,9 +13,9 @@ import lxml.etree as etree
 import requests
 from dateutil import parser as dateutil_parser
 
-from webdav3.connection import *
-from webdav3.exceptions import *
-from webdav3.urn import Urn
+from .connection import *
+from .exceptions import *
+from .urn import Urn
 
 log = logging.getLogger(__name__)
 
